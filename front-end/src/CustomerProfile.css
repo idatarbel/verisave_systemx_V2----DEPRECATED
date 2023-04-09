@@ -1,0 +1,12 @@
+.profile-box {
+    @apply bg-white rounded-md border border-zinc-300 p-4 ml-4 flex-1 flex-nowrap break-after-column
+}
+.profile-box-title {
+    @apply text-base font-semibold
+}
+.view-download {
+    @apply mx-2 inline
+}
+table.reports td {
+    white-space: nowrap;
+}

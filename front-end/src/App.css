@@ -1,45 +1,12 @@
-.footer {
-  background-color: grey;
-  color: white;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;
+header {
+    @apply w-full z-50 bg-neutral-800 text-white fixed top-0 left-0 columns-2
 }
-
-.container {
-  width:10%;
+header {
+    border-bottom: solid 1px #a1a1aa;
 }
-
-#page-container {
-  position: relative;
-  min-height: 1vh; 
+input.search {
+    border-radius: 0.25rem 0px 0px 0.25rem;
 }
-
-@media only screen and (min-width: 1024px) {
-  .container header .header-nav-area #nav_container  {
-    display:flex;
-  }
-}
-
-.lightgray{
-background-color:#f5f4f2 ;
-}
-
-h1{
-  height:80px
-}
-
-div .parent {
-  display: flex; 
- /* width: 500px;*/
-  text-align:right;
-}
-div .left {
-  width: 100%; 
-  text-align: right;
-  padding-right:10px;
-}
-div .right {
-  /*flex-grow: 1; */
+.button-fit-to-input {
+    border-radius: 0px 0.25rem 0.25rem 0px;
 }

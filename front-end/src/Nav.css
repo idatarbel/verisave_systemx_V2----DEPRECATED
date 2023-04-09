@@ -1,0 +1,18 @@
+nav {
+    @apply w-[60px] h-full bg-neutral-800 text-white fixed top-0 left-0 pt-[60px]
+}
+.nav-item {
+    @apply py-3 text-xs text-white content-center text-center
+}
+.nav-item-icon {
+    @apply w-[36px] text-white content-center
+}
+.nav-item {
+    opacity:0.7;
+}
+.nav-item:hover {
+    opacity:1.0;
+}
+.nav-item-icon {
+    margin:auto;
+}
